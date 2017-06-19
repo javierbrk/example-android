@@ -1,5 +1,10 @@
 language: android
 jdk: oraclejdk8
+
+notifications:  #Optional
+    email:
+    -javierbrk@gmail.com 
+
 env:
   global:
     - ANDROID_TARGET=android-15
